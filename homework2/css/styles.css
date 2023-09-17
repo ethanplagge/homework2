@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.content-holder {
+  min-height: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+.content-holder h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 100px;
+  background-color: #413535;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.double-info-wrapper {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.double-info-wrapper .home-image {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/kentucky-gorge.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.double-info-wrapper .home-image2 {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/canyon.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.double-info-wrapper .home-text {
+  height: 100%;
+  width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.about-image {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/hi-five.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image2 {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/construction-worker.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-image {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/cantalope.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-image2 {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/kiwi.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-image {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/food-processor.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.products-image2 {
+  height: 100%;
+  width: 300px;
+  background-image: url(../images/point.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=styles.css.map */
